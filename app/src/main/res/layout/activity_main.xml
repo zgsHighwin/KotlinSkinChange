@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zgs="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="换肤文字"
+        android:textSize="40sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33ff0000"
+        android:gravity="center"
+        android:text="不肤文字"
+        zgs:skinSupport="false"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="defaultSkinClick"
+        android:text="default"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="skin"
+        android:text="skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

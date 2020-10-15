@@ -1,0 +1,4 @@
+include ':skinpackage'
+include ':SkinLibrary'
+include ':app'
+rootProject.name = "AndroidSkinChange"
